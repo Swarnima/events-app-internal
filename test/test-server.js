@@ -35,7 +35,7 @@ describe('GET /', function() {
         .get('/events')
         .set('Accept', 'application/json')
         .expect('Content-Type', /json/)
-        .expect(200, done);
+        .expect(400, done);
     });
     it('returns events', function(done) {
       request(app)
