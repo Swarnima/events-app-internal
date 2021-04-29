@@ -52,7 +52,7 @@ describe('GET /', function() {
 
       });
   });
-
+// This is post event
   describe('POST /event', function() {
     it('adds an event', function(done) {
       request(app)
